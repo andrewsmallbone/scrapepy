@@ -1,7 +1,7 @@
 scrapepy
 ========
 
-Some python scripts for scraping websites - html/xml/rss/json
+Some python scripts for scraping websites - xml/rss at the moment
 
 Written for producing content for display on 4x20 LCD controlled by phatIO, for example:
 
