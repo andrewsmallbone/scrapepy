@@ -6,11 +6,18 @@
 
 # Prints the next bus times for the specified bus stops and route that leave after
 # the given number of minutes (shortname, busstop code, route, minutes)
-
-# So if you live near two bus stops one takes 5 minutes to walk to, the other 10
-# minutes the following would show the next busses to depart from each so you can
-# decide which to walk to.
+# So if you live near two bus stops (named S and R) one takes 5 minutes to walk to, 
+# the other 10 minutes the following would show the next busses to depart from each
+# after the walking time so you can decide which to walk to.
 stops = [('S', 'V5139', '2', 5), ('R', 'V5128', '2', 10)]
+
+# example output:
+
+# now: 10:40
+# S 10:46 10:53 11:08
+# R 11:57 12:17
+
+
 # Uses the Helsinki HSL/HRT Reittiopas API which requires a 
 # (free) username/password: from: http://developer.reittiopas.fi/pages/en/home.php
 # check the examples and geolocation API to get busstop codes.
